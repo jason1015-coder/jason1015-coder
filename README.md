@@ -58,26 +58,18 @@ Welcome to my GitHub profile! I'm a passionate developer with expertise in **Go*
 
 ---
 
-## 📖 Blog & Articles
 
-- 📝 [Article Title](link) - Brief description
-- 📝 [Article Title](link) - Brief description
-- 📝 [Article Title](link) - Brief description
-
----
 
 ## 💡 Philosophy
 
-> "Write code that humans can understand, and machines will execute it."
-
-I believe in writing clean, efficient code that prioritizes readability and maintainability. I'm passionate about building solutions that make a positive impact.
+I'm passionate about building solutions that make a positive impact.
 
 ---
 
 ## 🎉 Fun Facts
 
 - 🎮 Love solving coding challenges in my spare time
-- ☕ Fueled by coffee and curiosity
+- I am only 16 years old
 - 🌱 Advocate for continuous learning and growth
 
 ---
@@ -88,7 +80,7 @@ Feel free to explore my repositories and use any open-source projects according 
 
 ---
 
-<div align="center">
+
 
 **⭐ If you find my work interesting, please consider giving my repositories a star! ⭐**
 
