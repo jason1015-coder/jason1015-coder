@@ -19,15 +19,11 @@ Welcome to my GitHub profile! I'm a passionate developer with expertise in **Go*
 ### Languages & Frameworks
 
 | **Go** | ⭐⭐⭐⭐⭐ | 
-| **Python** | ⭐⭐⭐⭐⭐ | 
+
+| **Python** | ⭐⭐⭐⭐⭐ |
+
 | **C++** | ⭐⭐⭐⭐ | 
 
-### Tools & Technologies
-- **Databases**: PostgreSQL, MongoDB, Redis, MySQL
-- **DevOps**: Docker, Kubernetes, CI/CD (GitHub Actions, Jenkins)
-- **Cloud**: AWS, Google Cloud Platform, Azure
-- **Version Control**: Git, GitHub, GitLab
-- **Testing**: Unit Testing, Integration Testing, Test-Driven Development (TDD)
 
 ---
 
