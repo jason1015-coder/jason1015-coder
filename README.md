@@ -25,15 +25,6 @@ Welcome to my GitHub profile! I'm a passionate developer with expertise in **Go*
 | **C++** | ⭐⭐⭐⭐ | 
 
 
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jason1015-coder&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jason1015-coder&layout=compact&theme=radical)
-
----
 
 
 
