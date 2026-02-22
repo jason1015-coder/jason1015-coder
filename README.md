@@ -49,16 +49,6 @@ Welcome to my GitHub profile! I'm a passionate developer with expertise in **Go*
 
 ---
 
-## 🏆 Achievements & Highlights
-
-- ⭐ [100+ Stars on Popular Repository]
-- 🔥 [Trending Project on GitHub]
-- 🎯 [Contributed to Major Open Source Projects]
-- 🏅 [Recognized Contributor in Community]
-
----
-
-
 
 ## 💡 Philosophy
 
