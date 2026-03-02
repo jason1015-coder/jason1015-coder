@@ -32,7 +32,6 @@ Welcome to my GitHub profile! I'm a passionate developer with expertise in **Go*
 
 ## 📈 Recent Activity
 
-- 🔄 Actively maintaining multiple open-source projects
 - 📝 Contributing to community discussions and code reviews
 - 🎓 Learning advanced patterns in distributed systems
 - 🤝 Open to collaborations and interesting project opportunities
