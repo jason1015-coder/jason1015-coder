@@ -68,39 +68,16 @@ I'm a passionate **hobby developer** who loves to code in my free time! By day, 
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jason1015-coderE&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jason1015-coder&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </div>
 
 ---
 
 ## 🚀 What I'm Working On
 
-```go
-package main
+https://github.com/tesselstudio/TesselBox-game
 
-import "fmt"
-
-type Developer struct {
-    Name        string
-    Role        string
-    Languages   []string
-    Learning    []string
-    Motivation  string
-}
-
-func main() {
-    me := Developer{
-        Name:       "Your Name",
-        Role:       "Hobby Developer",
-        Languages:  []string{"Go", "Python", "C++"},
-        Learning:   []string{"System Design", "Testing", "Open Source"},
-        Motivation: "Building cool stuff, one commit at a time!",
-    }
-    
-    fmt.Printf("Hello, World! I'm %s 👋\n", me.Name)
-}
-```
-
+a game similar to terraria but in hexagons,welcoming all kinds of contributions 
 ---
 
 ## 🎯 Current Learning Goals
@@ -110,39 +87,14 @@ func main() {
 
 ---
 
-## 🐍 Code Philosophy
 
-```python
-class MyCodingJourney:
-    def __init__(self):
-        self.bugs_fixed = 0
-        self.bugs_created = float('inf')  # still counting...
-        self.coffee_consumed = "too much"
-        
-    def learn(self):
-        while True:
-            try:
-                self.write_code()
-                self.debug()
-                self.bugs_fixed += 1
-            except GivingUpError:
-                break  # never happens
-            finally:
-                self.commit()
-                
-    def have_fun(self):
-        return True  # always!
-```
-
----
 
 ## 📫 Let's Connect!
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_USERNAME)
-[![Discord](https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/YOUR_USERNAME)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jason1015-coder)
+
 
 </div>
 
@@ -152,7 +104,7 @@ class MyCodingJourney:
   
   ### 💡 "The best error message is the one that never shows up." — Someone wise
   
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=58A6FF&style=flat-square&label=Profile+Views" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=jason1015-coder&color=58A6FF&style=flat-square&label=Profile+Views" alt="Profile Views"/>
   
 </div>
 
