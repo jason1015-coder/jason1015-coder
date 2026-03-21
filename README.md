@@ -74,7 +74,7 @@ I'm a passionate **hobby developer** who loves to code in my free time! By day, 
 
 https://github.com/tesselstudio/TesselBox-game
 
-a game similar to terraria but in hexagons,welcoming all kinds of contributions 
+ a game similar to terraria but in hexagons,welcoming all kinds of contributions 
 ---
 
 ## 🎯 Current Learning Goals
