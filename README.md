@@ -31,7 +31,7 @@ I'm a passionate **hobby developer** who loves to code in my free time! By day, 
     <td align="center" width="33%">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="60" height="60" alt="Go"/>
       <br><strong>Go</strong>
-      <br><sub>My main project </sub>
+      <br><sub>My main language </sub>
     </td>
     <td align="center" width="33%">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60" height="60" alt="Python"/>
