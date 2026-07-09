@@ -54,21 +54,7 @@ I'm a passionate **hobby developer** who loves to code in my free time! By day, 
 
 ---
 
-## 📊 GitHub Stats
 
-<div align="center">
-  
-  <img src="https://github-readme-stats.vercel.app/api?username=jason1015-coder&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="180"/>
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jason1015-coder&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="180"/>
-
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jason1015-coder&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</div>
-
----
 
 
 
