@@ -15,7 +15,7 @@
 
 I'm a passionate **hobby developer** who loves to code in my free time! By day, I do other things — by night (and weekends), I'm debugging, building, and learning. I'm not a pro (yet!), but I truly enjoy the journey of turning ideas into code.
 
-- 🌱 Currently diving deeper into **systems programming** and **backend development**
+- 🌱 Currently diving deeper into **UI design**
 - 🎯 Goal: Contribute to open source and build useful tools
 - 🤝 Always happy to learn from others and collaborate on fun projects
 - ⚡ Fun fact: I spend more time reading documentation than I'd like to admit 😄
