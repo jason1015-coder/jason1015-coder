@@ -54,8 +54,7 @@ I'm a passionate **hobby developer** who loves to code in my free time! By day, 
 
 ---
 
-- name: GitHub-Profile-Summary-Cards
-  uses: vn7n24fzkq/github-profile-summary-cards@v0.12.0
+
 
 
 
