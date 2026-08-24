@@ -63,8 +63,6 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
 
 <div align="center">
 
-  ### 💡 "First, solve the problem. Then, write the code." — John Johnson
-
   <img src="https://komarev.com/ghpvc/?username=jason1015-coder&color=58A6FF&style=flat-square&label=Profile+Views" alt="Profile Views"/>
 
 </div>
