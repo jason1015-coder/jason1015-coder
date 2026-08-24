@@ -72,3 +72,6 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
 
 <details>
   <summary>📖 Random Dev Joke (Click me!)</summary>
+A programmer’s wife tells him:
+“Go to the store and buy a loaf of bread. If they have eggs, buy a dozen.”
+He comes home with 12 loaves of bread.
