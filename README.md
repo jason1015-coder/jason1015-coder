@@ -3,6 +3,7 @@
 <div align="center">
 
   ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hobby+Developer+%7C+Builder;Turning+ideas+into+working+code;Always+shipping+something+new)
+  
   *"Code is like humor. When you have to explain it, it’s bad."*
 
 </div>
