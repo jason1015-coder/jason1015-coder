@@ -59,7 +59,6 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
 
 </div>
 
----
 
 <div align="center">
 
