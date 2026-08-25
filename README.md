@@ -50,7 +50,14 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
 ---
+## things I've worked on
 
+- [nano-collective](https://github.com/Nano-Collective) projects
+- browsers extensions:
+   - [weather-ext](https://github.com/jason1015-coder/weather-ext)
+   - [quick notes](https://github.com/jason1015-coder/quick-note-ext)
+   - [432 converter](https://github.com/jason1015-coder/audio-pitch-converter)
+etc..... and more
 ## 📫 Let's Connect
 
 <div align="center">
