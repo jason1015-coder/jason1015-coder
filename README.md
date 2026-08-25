@@ -15,7 +15,7 @@
 I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one thing — nights and weekends are for building, refining, and solving interesting problems.
 
 - 🌱 Currently leveling up **UI/UX design** and making my projects feel as good as they work
-- 🎯 Focused on writing clean, maintainable code and contributing to open source
+- 🎯 Focused on contributing to open source
 - 🤝 Always open to collaborating on cool side projects
 - ⚡ Fun fact: I still read the docs first… most of the time
 
