@@ -57,7 +57,9 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
    - [weather-ext](https://github.com/jason1015-coder/weather-ext)
    - [quick notes](https://github.com/jason1015-coder/quick-note-ext)
    - [432 converter](https://github.com/jason1015-coder/audio-pitch-converter)
-etc..... and more
+etc..... and more, basically whatever "I wish it exist(for free)", I want it
+I build it
+
 ## 📫 Let's Connect
 
 <div align="center">
