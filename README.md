@@ -42,8 +42,8 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
       <br><sub>When performance matters</sub>
     </td>
     <td align="center" width="33%">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/js/js-original.svg" width="60" height="60" alt="js"/>
-      <br><strong>Go</strong>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60" height="60" alt="js"/>
+      <br><strong>Javascript</strong>
       <br><sub>When I want to boost my productivity</sub>
     </td>
   </tr>
