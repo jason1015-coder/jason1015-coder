@@ -24,32 +24,42 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
 ## 🛠️ Tech Stack
 
 ### Core Languages
+
 <table>
   <tr>
-    <td align="center" width="20%">
+    <td align="center" width="33%">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="60" height="60" alt="Go"/>
       <br><strong>Go</strong>
       <br><sub>My daily driver</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center" width="33%">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60" height="60" alt="Python"/>
       <br><strong>Python</strong>
       <br><sub>Scripting, automation & data</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center" width="33%">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="60" height="60" alt="C++"/>
       <br><strong>C++</strong>
       <br><sub>When performance matters</sub>
     </td>
-    <td align="center" width="20%">
+  </tr>
+</table>
+
+<table>
+    </td>
+    <td align="center" width="33%">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60" height="60" alt="js"/>
       <br><strong>Javascript</strong>
       <br><sub>When I want to boost my productivity</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center" width="33%">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" width="60" height="60" alt="js"/>
       <br><strong>rust</strong>
       <br><sub>Not mastered, but secure with AI</sub>
+    </td>
+    <td align="center" width="33%">
+      <br><strong>fn</strong>
+      <br><sub>my own experimental language!!!</sub>
     </td>
   </tr>
 </table>
