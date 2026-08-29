@@ -58,7 +58,7 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
       <br><sub>Not mastered, but secure with AI</sub>
     </td>
     <td align="center" width="33%">
-      <br><strong>fn</strong>
+      <br><strong>[fn](https://github.com/jason1015-coder/fn-lang)</strong>
       <br><sub>my own experimental language!!!</sub>
     </td>
   </tr>
