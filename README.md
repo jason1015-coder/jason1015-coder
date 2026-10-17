@@ -57,13 +57,7 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
       <br><strong>rust</strong>
       <br><sub>Not mastered, but secure with AI</sub>
     </td>
-    <td align="center" width="33%">
-      <br><strong>fn</strong>
-      <br><sub>my own experimental language!!! https://github.com/jason1015-coder/fn-lang </sub>
-    </td>
-  </tr>
-</table>
-
+ 
 ### Tools & Environment
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
