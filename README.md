@@ -32,21 +32,21 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
 
 ## 🥚 Star Tamagotchi
 
-A pet lives in this README, and the only food it accepts is a ⭐ on this repo. Star it and it grows.
+A pet lives in this README, and the only food it accepts is a ⭐ — on **any** repo I wrote, not just this one. Star any of them and it grows.
 
 <p align="center">
-  <img src="./tamagotchi.svg" alt="A pixel pet that hatches and evolves as this repo gains stars" width="520">
+  <img src="./tamagotchi.svg" alt="A pixel pet that hatches and evolves as stars arrive on any of my repos" width="520">
 </p>
 
-| Stars | Stage |
+| Total stars | Stage |
 | :---: | :--- |
 | 0 | 🥚 egg — unhatched |
-| 1 | 🐣 hatchling — just out of the shell |
-| 3 | 🐸 sprout — growing fast |
-| 5 | 🐲 chonk — well fed |
-| 10 | 👑 legend — crowned |
+| 5 | 🐣 hatchling — just out of the shell |
+| 15 | 🐸 sprout — growing fast |
+| 40 | 🐲 chonk — well fed |
+| 100 | 👑 legend — crowned |
 
-It re-renders itself on every new star and once a day, so no one has to herd it.
+Stars are counted across every repo I wrote (forks of other people's work don't count). A star on this repo wakes it instantly; stars elsewhere land on the next hourly run, so no one has to herd it.
 
 ## 📫 Let's Connect
 

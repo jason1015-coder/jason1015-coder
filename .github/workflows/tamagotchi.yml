@@ -1,10 +1,13 @@
 name: Feed the tamagotchi
 
 on:
+  # Stars on this repo feed it immediately...
   watch:
     types: [started]
+  # ...stars on the other repos get picked up on the next hourly run, since
+  # only a star on the repo holding this workflow fires the watch event.
   schedule:
-    - cron: "17 4 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:

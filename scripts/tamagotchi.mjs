@@ -1,35 +1,47 @@
 #!/usr/bin/env node
-// Renders tamagotchi.svg: a pet that hatches, grows and evolves with the repo's star count.
+// Renders tamagotchi.svg: a pet that hatches, grows and evolves with the total stars
+// across every repo the owner wrote (forks excluded).
 // Usage: node scripts/tamagotchi.mjs            (reads stars from the GitHub API)
 //        TAMAGOTCHI_STARS=7 node scripts/tamagotchi.mjs   (offline preview)
 
 import { readFileSync, writeFileSync } from "node:fs";
 
-const REPO = process.env.TAMAGOTCHI_REPO ?? "jason1015-coder/jason1015-coder";
+const OWNER = process.env.TAMAGOTCHI_OWNER ?? "jason1015-coder";
 const OUT = "tamagotchi.svg";
 
 const STAGES = [
   { at: 0, name: "EGG", blurb: "unhatched, waiting for its first star" },
-  { at: 1, name: "HATCHLING", blurb: "just hatched, still wobbly" },
-  { at: 3, name: "SPROUT", blurb: "growing fast, curious about everything" },
-  { at: 5, name: "CHONK", blurb: "well fed and very pleased with itself" },
-  { at: 10, name: "LEGEND", blurb: "crowned, glowing, insufferable about it" },
+  { at: 5, name: "HATCHLING", blurb: "just hatched, still wobbly" },
+  { at: 15, name: "SPROUT", blurb: "growing fast, curious about everything" },
+  { at: 40, name: "CHONK", blurb: "well fed and very pleased with itself" },
+  { at: 100, name: "LEGEND", blurb: "crowned, glowing, insufferable about it" },
 ];
 
+// Every star on any repo Jason wrote counts as food; forks of other people's work don't.
 async function stars() {
   if (process.env.TAMAGOTCHI_STARS) return Number(process.env.TAMAGOTCHI_STARS);
-  const res = await fetch(`https://api.github.com/repos/${REPO}`, {
-    headers: {
-      accept: "application/vnd.github+json",
-      "user-agent": "stargotchi",
-      ...(process.env.GITHUB_TOKEN
-        ? { authorization: `Bearer ${process.env.GITHUB_TOKEN}` }
-        : {}),
-    },
-  });
-  if (!res.ok) throw new Error(`GitHub API responded ${res.status}`);
-  const data = await res.json();
-  return data.stargazers_count ?? 0;
+  let total = 0;
+  for (let page = 1; ; page++) {
+    const res = await fetch(
+      `https://api.github.com/users/${OWNER}/repos?per_page=100&type=owner&page=${page}`,
+      {
+        headers: {
+          accept: "application/vnd.github+json",
+          "user-agent": "stargotchi",
+          ...(process.env.GITHUB_TOKEN
+            ? { authorization: `Bearer ${process.env.GITHUB_TOKEN}` }
+            : {}),
+        },
+      },
+    );
+    if (!res.ok) throw new Error(`GitHub API responded ${res.status}`);
+    const repos = await res.json();
+    for (const repo of repos) {
+      if (!repo.fork) total += repo.stargazers_count ?? 0;
+    }
+    if (repos.length < 100) break;
+  }
+  return total;
 }
 
 const BODY = "#7ee787";
@@ -127,16 +139,17 @@ function render(count) {
   const stage = STAGES.reduce((s, cur) => (count >= cur.at ? cur : s), STAGES[0]);
   const index = STAGES.indexOf(stage);
   const next = STAGES[index + 1];
-  const fed = Math.min(count, 10) / 10;
+  // Each stage fills as its own stars arrive, so the bar always shows local progress.
+  const fed = next ? Math.min(1, Math.max(0, (count - stage.at) / (next.at - stage.at))) : 1;
   const barWidth = Math.round(228 * fed);
   const hint = next
     ? `${next.at - count} more to reach ${next.name.toLowerCase()}`
     : "fully grown, still hungry";
-  const title = `Star Tamagotchi: ${stage.name.toLowerCase()} (${count} star${count === 1 ? "" : "s"})`;
+  const title = `Star Tamagotchi: ${stage.name.toLowerCase()} (${count} star${count === 1 ? "" : "s"} across ${OWNER}'s repos)`;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="520" height="220" viewBox="0 0 520 220" role="img" aria-labelledby="ttl dsc">
   <title id="ttl">${title}</title>
-  <desc id="dsc">A pixel pet, currently a ${stage.name.toLowerCase()} — ${stage.blurb}. It grows as this repo gains stars.</desc>
+  <desc id="dsc">A pixel pet, currently a ${stage.name.toLowerCase()} — ${stage.blurb}. It grows as any of ${OWNER}'s repos gains stars.</desc>
   <style>
     text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     .eyes { animation: blink 4.6s infinite; }
@@ -169,12 +182,12 @@ function render(count) {
   <text x="280" y="78" fill="#e6edf3" font-size="26" font-weight="700" letter-spacing="1">${stage.name}</text>
   ${star(291, 104, 10, 4.6)}
   <text x="308" y="113" fill="${GOLD}" font-size="22" font-weight="700">${count}</text>
-  <text x="280" y="136" fill="#8b949e" font-size="11">hunger</text>
+  <text x="280" y="136" fill="#8b949e" font-size="11">growth</text>
   <rect x="280" y="142" width="228" height="12" rx="6" fill="#21262d"/>
   ${barWidth > 0 ? `<rect x="280" y="142" width="${barWidth}" height="12" rx="6" fill="${BODY}"/>` : ""}
   ${star(287, 172, 6, 2.7, "#6e7681")}
   <text x="302" y="176" fill="#8b949e" font-size="11">${hint}</text>
-  <text x="280" y="196" fill="#6e7681" font-size="10">each star feeds it</text>
+  <text x="280" y="196" fill="#6e7681" font-size="10">any repo · each star feeds it</text>
 </svg>
 `;
 }
