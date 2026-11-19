@@ -28,9 +28,8 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
 | [**manager-ext**](https://github.com/jason1015-coder/manager-ext) | 🟡 | Digging through `chrome://extensions`, "extension manager" store extensions |
 | [**scriptura**](https://github.com/jason1015-coder/scriptura) | 🔴 | VS Code / Cursor / JetBrains IDEs |
 
-> 🍴 Org and forked work lives under [Nano-Collective](https://github.com/Nano-Collective) (nanocoder, docs, up-for-grabs.net) — not listed above because it's not built from scratch here.
+> 🍴 Org and forked work not listed above because it's not built from scratch here.
 
-Basically whatever "I wish it existed (for free)", I build it.
 
 ## 📫 Let's Connect
 
