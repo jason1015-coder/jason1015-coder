@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="220" viewBox="0 0 520 220" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">Star Tamagotchi: egg (0 stars)</title>
+  <desc id="dsc">A pixel pet, currently a egg — unhatched, waiting for its first star. It grows as this repo gains stars.</desc>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .eyes { animation: blink 4.6s infinite; }
+    .eyes circle { transform-box: fill-box; transform-origin: center; animation: lid 4.6s infinite; }
+    .pet  { animation: bob 3.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes blink { 0%,92%,100% { opacity: 1 } 96% { opacity: .15 } }
+    @keyframes lid   { 0%,92%,100% { transform: scaleY(1) } 96% { transform: scaleY(.15) } }
+    @keyframes bob   { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-3px) } }
+  </style>
+
+  <rect x="1" y="1" width="518" height="218" rx="20" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+
+  <!-- device -->
+  <rect x="12" y="12" width="248" height="196" rx="20" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+  <rect x="28" y="28" width="216" height="150" rx="10" fill="#0f1a13" stroke="#26352b" stroke-width="1.5"/>
+  <g opacity=".14" stroke="#2ea043" stroke-width=".6">
+    <line x1="28" y1="43" x2="244" y2="43"/><line x1="28" y1="58" x2="244" y2="58"/><line x1="28" y1="73" x2="244" y2="73"/><line x1="28" y1="88" x2="244" y2="88"/><line x1="28" y1="103" x2="244" y2="103"/><line x1="28" y1="118" x2="244" y2="118"/><line x1="28" y1="133" x2="244" y2="133"/><line x1="28" y1="148" x2="244" y2="148"/><line x1="28" y1="163" x2="244" y2="163"/>
+    <line x1="43.4" y1="28" x2="43.4" y2="178"/><line x1="58.8" y1="28" x2="58.8" y2="178"/><line x1="74.2" y1="28" x2="74.2" y2="178"/><line x1="89.6" y1="28" x2="89.6" y2="178"/><line x1="105" y1="28" x2="105" y2="178"/><line x1="120.4" y1="28" x2="120.4" y2="178"/><line x1="135.8" y1="28" x2="135.8" y2="178"/><line x1="151.2" y1="28" x2="151.2" y2="178"/><line x1="166.6" y1="28" x2="166.6" y2="178"/><line x1="182" y1="28" x2="182" y2="178"/><line x1="197.4" y1="28" x2="197.4" y2="178"/><line x1="212.8" y1="28" x2="212.8" y2="178"/><line x1="228.20000000000002" y1="28" x2="228.20000000000002" y2="178"/>
+  </g>
+  <g class="pet"><g transform="translate(108,80)">
+        <path d="M0,-40 C23,-40 31,-12 31,7 C31,27 17,39 0,39 C-17,39 -31,27 -31,7 C-31,-12 -23,-40 0,-40 Z"
+              fill="#e6edf3" stroke="#c9d1d9" stroke-width="2"/>
+        <path d="M-15,-6 l11,9 l-9,7 l12,8" fill="none" stroke="#9aa4af" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M-9,22 q9,5 18,0" fill="none" stroke="#c9d1d9" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+      </g></g>
+  <g fill="#30363d">
+    <rect x="38" y="190" width="34" height="8" rx="4"/>
+    <rect x="52" y="176" width="8" height="34" rx="4"/>
+    <circle cx="196" cy="194" r="8"/>
+    <circle cx="220" cy="194" r="8" fill="#3fb950"/>
+  </g>
+
+  <!-- readout -->
+  <text x="280" y="42" fill="#8b949e" font-size="11" letter-spacing="2.4">STAR TAMAGOTCHI</text>
+  <text x="280" y="78" fill="#e6edf3" font-size="26" font-weight="700" letter-spacing="1">EGG</text>
+  <polygon points="291.00,94.00 293.70,100.28 300.51,100.91 295.37,105.42 296.88,112.09 291.00,108.60 285.12,112.09 286.63,105.42 281.49,100.91 288.30,100.28" fill="#f2cc60"/>
+  <text x="308" y="113" fill="#f2cc60" font-size="22" font-weight="700">0</text>
+  <text x="280" y="136" fill="#8b949e" font-size="11">hunger</text>
+  <rect x="280" y="142" width="228" height="12" rx="6" fill="#21262d"/>
+  
+  <polygon points="287.00,166.00 288.59,169.82 292.71,170.15 289.57,172.83 290.53,176.85 287.00,174.70 283.47,176.85 284.43,172.83 281.29,170.15 285.41,169.82" fill="#6e7681"/>
+  <text x="302" y="176" fill="#8b949e" font-size="11">1 more to reach hatchling</text>
+  <text x="280" y="196" fill="#6e7681" font-size="10">each star feeds it</text>
+</svg>

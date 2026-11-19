@@ -1,0 +1,42 @@
+name: Feed the tamagotchi
+
+on:
+  watch:
+    types: [started]
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tamagotchi
+  cancel-in-progress: false
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Render the pet from the star count
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/tamagotchi.mjs
+
+      - name: Commit the new card
+        run: |
+          if git diff --quiet -- tamagotchi.svg; then
+            echo "Pet unchanged, nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tamagotchi.svg
+          git commit -m "Feed the tamagotchi"
+          git push

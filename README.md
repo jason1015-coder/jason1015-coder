@@ -30,6 +30,23 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
 
 > 🍴 Org and forked work not listed above because it's not built from scratch here.
 
+## 🥚 Star Tamagotchi
+
+A pet lives in this README, and the only food it accepts is a ⭐ on this repo. Star it and it grows.
+
+<p align="center">
+  <img src="./tamagotchi.svg" alt="A pixel pet that hatches and evolves as this repo gains stars" width="520">
+</p>
+
+| Stars | Stage |
+| :---: | :--- |
+| 0 | 🥚 egg — unhatched |
+| 1 | 🐣 hatchling — just out of the shell |
+| 3 | 🐸 sprout — growing fast |
+| 5 | 🐲 chonk — well fed |
+| 10 | 👑 legend — crowned |
+
+It re-renders itself on every new star and once a day, so no one has to herd it.
 
 ## 📫 Let's Connect
 
