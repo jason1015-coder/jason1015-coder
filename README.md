@@ -24,7 +24,7 @@ A pet lives in this README, and the only food it accepts is a ⭐ — on **any**
 | 40 | 🐲 chonk — well fed |
 | 100 | 👑 legend — crowned |
 
-Stars are counted across every repo I wrote (forks of other people's work don't count). A star on this repo wakes it instantly; stars elsewhere land on the next hourly run, so no one has to herd it.
+Stars are counted across every repo I wrote (forks of other people's work don't count). A star anywhere wakes it within seconds — the other repos shout over when they get one, and a five-minute poll catches anything missed, so no one has to herd it.
 
 ---
 

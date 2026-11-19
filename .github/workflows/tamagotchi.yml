@@ -1,13 +1,16 @@
 name: Feed the tamagotchi
 
 on:
-  # Stars on this repo feed it immediately...
+  # A star on this repo fires the watch event and feeds it right away.
   watch:
     types: [started]
-  # ...stars on the other repos get picked up on the next hourly run, since
-  # only a star on the repo holding this workflow fires the watch event.
+  # Repos that cannot fire `watch` here (everything except this one) send this
+  # dispatch from their own star event, which makes those stars instant too.
+  repository_dispatch:
+    types: [repo-starred]
+  # Backstop for anything the dispatch misses. Five minutes is GitHub's floor.
   schedule:
-    - cron: "17 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -42,4 +45,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add tamagotchi.svg
           git commit -m "Feed the tamagotchi"
+          # A manual README push can land between checkout and here; replay on top.
+          git pull --rebase --autostash origin ${GITHUB_REF_NAME}
           git push
