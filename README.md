@@ -8,6 +8,26 @@
 
 ---
 
+## 🥚 Star Tamagotchi
+
+A pet lives in this README, and the only food it accepts is a ⭐ — on **any** repo I wrote, not just this one. Star any of them and it grows.
+
+<p align="center">
+  <img src="./tamagotchi.svg" alt="A pixel pet that hatches and evolves as stars arrive on any of my repos" width="520">
+</p>
+
+| Total stars | Stage |
+| :---: | :--- |
+| 0 | 🥚 egg — unhatched |
+| 5 | 🐣 hatchling — just out of the shell |
+| 15 | 🐸 sprout — growing fast |
+| 40 | 🐲 chonk — well fed |
+| 100 | 👑 legend — crowned |
+
+Stars are counted across every repo I wrote (forks of other people's work don't count). A star on this repo wakes it instantly; stars elsewhere land on the next hourly run, so no one has to herd it.
+
+---
+
 ## 🧑‍💻 About Me
 
 I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one thing — nights and weekends are for building, refining, and solving interesting problems.
@@ -29,24 +49,6 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
 | [**scriptura**](https://github.com/jason1015-coder/scriptura) | 🔴 | VS Code / Cursor / JetBrains IDEs |
 
 > 🍴 Org and forked work not listed above because it's not built from scratch here.
-
-## 🥚 Star Tamagotchi
-
-A pet lives in this README, and the only food it accepts is a ⭐ — on **any** repo I wrote, not just this one. Star any of them and it grows.
-
-<p align="center">
-  <img src="./tamagotchi.svg" alt="A pixel pet that hatches and evolves as stars arrive on any of my repos" width="520">
-</p>
-
-| Total stars | Stage |
-| :---: | :--- |
-| 0 | 🥚 egg — unhatched |
-| 5 | 🐣 hatchling — just out of the shell |
-| 15 | 🐸 sprout — growing fast |
-| 40 | 🐲 chonk — well fed |
-| 100 | 👑 legend — crowned |
-
-Stars are counted across every repo I wrote (forks of other people's work don't count). A star on this repo wakes it instantly; stars elsewhere land on the next hourly run, so no one has to herd it.
 
 ## 📫 Let's Connect
 
