@@ -14,49 +14,11 @@
 
 I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one thing — nights and weekends are for building, refining, and solving interesting problems.
 
-- 🌱 Currently leveling up **UI/UX design** and making my projects feel as good as they work
-- 🎯 Focused on contributing to open source
-- 🤝 Always open to collaborating on cool side projects
+- 🌱 Currently creating tools that is personal to myself
 - ⚡ Fun fact: I still read the docs first… most of the time
 
 ---
 
-## 🛠️ Tech Stack
-
-### Core Languages
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="60" height="60" alt="Go"/>
-      <br><strong>Go</strong>
-      <br><sub>My daily driver</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60" height="60" alt="Python"/>
-      <br><strong>Python</strong>
-      <br><sub>Scripting, automation & data</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="60" height="60" alt="C++"/>
-      <br><strong>C++</strong>
-      <br><sub>When performance matters</sub>
-    </td>
-  </tr>
-</table>
-
-<table>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60" height="60" alt="js"/>
-      <br><strong>Javascript</strong>
-      <br><sub>When I want to boost my productivity</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" width="60" height="60" alt="js"/>
-      <br><strong>rust</strong>
-      <br><sub>Not mastered, but secure with AI</sub>
-    </td>
  
 ### Tools & Environment
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -64,7 +26,6 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
 ---
-## things I've worked on
 
 - [nano-collective](https://github.com/Nano-Collective) projects
 - browsers extensions:
