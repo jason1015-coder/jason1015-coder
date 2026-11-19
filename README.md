@@ -20,13 +20,13 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
 
 **Status key:** 🟢 daily driver · 🔵 frequently used · 🟡 sometimes used · 🟠 rarely used · 🔴 not ready
 
-| Project | What it is | Status | Replaces / aims to replace |
-| :--- | :--- | :--- | :--- |
-| [**weather-ext**](https://github.com/jason1015-coder/weather-ext) | Chromium side-panel extension — live conditions, 9-day forecast and hourly charts for 5 saved places, Open-Meteo data, no API key | 🟢 daily driver | Weather apps, weather.com tabs, ad-heavy weather extensions |
-| [**quick-note-ext**](https://github.com/jason1015-coder/quick-note-ext) | Floating notepad injected into any page, notes saved per domain, local storage only | 🔵 frequently used | Google Keep / Notion quick-capture, sticky-note extensions |
-| [**manager-ext**](https://github.com/jason1015-coder/manager-ext) | Dashboard to search, enable/disable and remove installed extensions | 🟡 sometimes used | Digging through `chrome://extensions`, "extension manager" store extensions |
-| [**audio-pitch-converter**](https://github.com/jason1015-coder/audio-pitch-converter) | Retunes web audio/video to A=432Hz in real time — tempo mode or WSOLA pitch mode | 🟠 rarely used | Audacity pitch-shifting, 432Hz converter sites, paid retune plugins |
-| [**scriptura**](https://github.com/jason1015-coder/scriptura) | Qt 6 + Rust code editor with a local-first AI assistant (Nanocoder), no trackers, no big companies | 🔴 not ready | VS Code / Cursor / JetBrains IDEs |
+| Project | Status | Replaces / aims to replace |
+| :--- | :---: | :--- |
+| [**weather-ext**](https://github.com/jason1015-coder/weather-ext) | 🔵 | Weather apps, weather.com tabs, ad-heavy weather extensions |
+| [**audio-pitch-converter**](https://github.com/jason1015-coder/audio-pitch-converter) | 🔵 | Audacity pitch-shifting, 432Hz converter sites, paid retune plugins |
+| [**quick-note-ext**](https://github.com/jason1015-coder/quick-note-ext) | 🟡 | Google Keep / Notion quick-capture, sticky-note extensions |
+| [**manager-ext**](https://github.com/jason1015-coder/manager-ext) | 🟡 | Digging through `chrome://extensions`, "extension manager" store extensions |
+| [**scriptura**](https://github.com/jason1015-coder/scriptura) | 🔴 | VS Code / Cursor / JetBrains IDEs |
 
 > 🍴 Org and forked work lives under [Nano-Collective](https://github.com/Nano-Collective) (nanocoder, docs, up-for-grabs.net) — not listed above because it's not built from scratch here.
 
