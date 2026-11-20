@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="520" height="220" viewBox="0 0 520 220" role="img" aria-labelledby="ttl dsc">
-  <title id="ttl">Star Tamagotchi: hatchling (13 stars across jason1015-coder's repos)</title>
+  <title id="ttl">Star Tamagotchi: hatchling (14 stars across jason1015-coder's repos)</title>
   <desc id="dsc">A pixel pet, currently a hatchling — just hatched, still wobbly. It grows as any of jason1015-coder's repos gains stars.</desc>
   <style>
     text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
@@ -43,11 +43,11 @@
   <text x="280" y="42" fill="#8b949e" font-size="11" letter-spacing="2.4">STAR TAMAGOTCHI</text>
   <text x="280" y="78" fill="#e6edf3" font-size="26" font-weight="700" letter-spacing="1">HATCHLING</text>
   <polygon points="291.00,94.00 293.70,100.28 300.51,100.91 295.37,105.42 296.88,112.09 291.00,108.60 285.12,112.09 286.63,105.42 281.49,100.91 288.30,100.28" fill="#f2cc60"/>
-  <text x="308" y="113" fill="#f2cc60" font-size="22" font-weight="700">13</text>
+  <text x="308" y="113" fill="#f2cc60" font-size="22" font-weight="700">14</text>
   <text x="280" y="136" fill="#8b949e" font-size="11">growth</text>
   <rect x="280" y="142" width="228" height="12" rx="6" fill="#21262d"/>
-  <rect x="280" y="142" width="182" height="12" rx="6" fill="#7ee787"/>
+  <rect x="280" y="142" width="205" height="12" rx="6" fill="#7ee787"/>
   <polygon points="287.00,166.00 288.59,169.82 292.71,170.15 289.57,172.83 290.53,176.85 287.00,174.70 283.47,176.85 284.43,172.83 281.29,170.15 285.41,169.82" fill="#6e7681"/>
-  <text x="302" y="176" fill="#8b949e" font-size="11">2 more to reach sprout</text>
+  <text x="302" y="176" fill="#8b949e" font-size="11">1 more to reach sprout</text>
   <text x="280" y="196" fill="#6e7681" font-size="10">any repo · each star feeds it</text>
 </svg>
