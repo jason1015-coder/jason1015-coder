@@ -38,7 +38,7 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
 ---
 ## 🚀 Projects
 
-**Status key:** 🟢 daily driver · 🔵 frequently used · 🟡 sometimes used · 🟠 rarely used · 🔴 not ready
+**Status key:** 🟢 daily driver · 🔵 frequently used · 🟡 sometimes used · 🟠 rarely used · 🔴 not ready · 🩶 not a tool
 
 | Project | Status | Replaces / aims to replace |
 | :--- | :---: | :--- |
@@ -47,6 +47,7 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
 | [**quick-note-ext**](https://github.com/jason1015-coder/quick-note-ext) | 🟡 | Google Keep / Notion quick-capture, sticky-note extensions |
 | [**manager-ext**](https://github.com/jason1015-coder/manager-ext) | 🟡 | Digging through `chrome://extensions`, "extension manager" store extensions |
 | [**scriptura**](https://github.com/jason1015-coder/scriptura) | 🔴 | VS Code / Cursor / JetBrains IDEs |
+| [**Project-metropolis** ](https://github.com/jason1015-coder/project-metropolis) | 🩶 | other boring display pages |
 
 > 🍴 Org and forked work not listed above because it's not built from scratch here.
 
