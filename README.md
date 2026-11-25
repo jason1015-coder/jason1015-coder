@@ -48,6 +48,8 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
 | [**manager-ext**](https://github.com/jason1015-coder/manager-ext) | 🟡 | Digging through `chrome://extensions`, "extension manager" store extensions |
 | [**scriptura**](https://github.com/jason1015-coder/scriptura) | 🔴 | VS Code / Cursor / JetBrains IDEs |
 | [**Project-metropolis** ](https://github.com/jason1015-coder/project-metropolis) | 🩶 | other boring display pages |
+| [the tamagotchi at **my profile** ](https://github.com/jason1015-coder/jason1015-code) | 🩶 | other boring display pages |
+
 
 > 🍴 Org and forked work not listed above because it's not built from scratch here.
 
