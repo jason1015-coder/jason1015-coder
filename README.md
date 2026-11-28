@@ -47,6 +47,7 @@ I'm a **hobby developer** who codes because I genuinely enjoy it. Day job is one
 | [**quick-note-ext**](https://github.com/jason1015-coder/quick-note-ext) | 🟡 | Google Keep / Notion quick-capture, sticky-note extensions |
 | [**manager-ext**](https://github.com/jason1015-coder/manager-ext) | 🟡 | Digging through `chrome://extensions`, "extension manager" store extensions |
 | [**scriptura**](https://github.com/jason1015-coder/scriptura) | 🔴 | VS Code / Cursor / JetBrains IDEs |
+| [**scriptura lite**](https://github.com/jason1015-coder/scipturalite) | 🟢 | lightweight editors like notepad |
 | [**Project-metropolis** ](https://github.com/jason1015-coder/project-metropolis) | 🩶 | other boring display pages |
 | [the tamagotchi at **my profile** ](https://github.com/jason1015-coder/jason1015-code) | 🩶 | other boring display pages |
 
